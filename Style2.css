@@ -1,0 +1,38 @@
+                            .box1 {
+                                width: 650px;
+                            }
+                            
+                            .box2 {
+                                width: 850px;
+                            }
+                            
+                            .box-yellow {
+                                width: 400px;
+                                background-color: yellow;
+                            }
+                            
+                            .box-green {
+                                width: 350px;
+                                background-color: rgb(148, 204, 37);
+                            }
+                            
+                            .box-padding {
+                                padding: 20px;
+                                margin-bottom: 30px;
+                            }
+                            
+                            .box-border {
+                                border: 1px solid gray;
+                            }
+                            
+                            .column {
+                                float: left;
+                                margin-right: 20px;
+                            }
+                            /* Clear floats after the columns */
+                            
+                            .row:after {
+                                content: "";
+                                display: table;
+                                clear: both;
+                            }
