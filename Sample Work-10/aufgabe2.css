@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%px;
+    height: 250px;
+    display: flex;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    background: rgb(253, 138, 29);
+    background: linear-gradient(62deg, rgba(253, 138, 29, 0.76234243697479) 17%, rgba(131, 58, 180, 1) 100%, rgba(252, 176, 69, 1) 100%);
+}
+
+.box1 {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    margin-left: 30px;
+    color: black;
+    border-radius: 20;
+}
+
+.box2 {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    color: black;
+}
+
+.box3 {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    color: black;
+}
+
+.box4 {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    margin-right: 30px;
+    color: black;
+}
+
+.container:hover .box1 {
+    background-color: white;
+}
+
+.container:hover .box2 {
+    background-color: white;
+}
+
+.container:hover .box3 {
+    background-color: white;
+}
+
+.container:hover .box4 {
+    background-color: white;
+}
