@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --accent: #E34808;
+    --radius: 10px;
+    --light: white;
+    --dark: #212121;
+    font-family: "sogoe ui";
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: var(--accent);
+    padding: 14px 45px;
+    min-width: 210px;
+    text-align: center;
+    border-radius: var(--radius);
+    border: none;
+    outline: none;
+    color: var(--light);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+
+/*-----------------------------------*/
+
+header {
+    height: 80px;
+    background-color: #333333;
+}
+
+.slinder {
+    background-color: #bdb4b4;
+}
+
+.slinder h1 {
+    margin-bottom: 6px;
+}
+
+.slinder span {
+    margin-bottom: 60px;
+    font-weight: lighter;
+}
+
+.leistungen .container {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.leistungen i {
+    font-size: 60px;
+    color: var(--light);
+}
+
+.leistungen .card+.card {
+    margin-left: 80px;
+}
+
+.leistungen .kreis {
+    border-radius: 50%;
+    background-color: var(--accent);
+    padding: 30px;
+}
