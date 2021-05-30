@@ -1,0 +1,58 @@
+:root {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+header {
+    text-align: center;
+}
+
+header p span {
+    background-color: black;
+    color: white;
+    padding: 0 5px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.column-first {
+    width: 60%;
+}
+
+.column-second {
+    width: 40%;
+}
+
+.blog-post {
+    background-color: white;
+}
+
+.blog-post div span {
+    color: hsl(0, 0%, 70%);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post-footer-left button {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 1px solid hs1(0, 0%, 70%);
+}
+
+.blog-post-footer-right button:hover {
+    background-color: hs1(0, 0%, 70%);
+    cursor: pointer;
+}
