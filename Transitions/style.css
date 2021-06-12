@@ -1,0 +1,52 @@
+    .card {
+        width: 150px;
+        height: 150px;
+        -webkit-transition: width 2s, height 2s, background 1s;
+        transition: width 2s, height 1s, background 1s;
+        transition-delay: 0;
+        margin-bottom: 10px;
+    }
+    
+    .card:hover {
+        width: 500px;
+    }
+    
+    #card1 {
+        transition-timing-function: ease;
+        background: blue;
+    }
+    
+    #card2 {
+        transition-timing-function: linear;
+        background: goldenrod;
+    }
+    
+    #card3 {
+        transition-timing-function: ease-in;
+        background: red;
+    }
+    
+    #card4 {
+        transition-timing-function: ease-out;
+        background: rgb(9, 9, 19);
+    }
+    
+    #card5 {
+        transition-timing-function: ease-in-out;
+        background: rgb(105, 105, 114);
+    }
+    
+    #card6 {
+        transition-timing-function: ease-in-out;
+        background: rgb(89, 89, 197);
+    }
+    
+    #card7 {
+        transition-timing-function: ease-in-out;
+        background: rgb(55, 136, 55);
+    }
+    
+    #card8 {
+        transition-timing-function: ease-in-out;
+        background: rgb(33, 41, 33);
+    }
